@@ -6,8 +6,7 @@ import React, {Component}from 'react'
     }
     render()
     {
-    return
-    <h1> It is {this.state.date.toLocaleTimeString()}.</h1>
+    return <h1> It is {this.state.date.toLocaleTimeString()}.</h1>
     }
 }
 
