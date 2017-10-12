@@ -8,6 +8,7 @@ import Clock from './State.js';
 import Toggle from './Eventhandler.js';
 import ConditionalHeader from './ConditionalHeader';
 import Listandkey from './Listandkey';
+import TemperatureInput from './Liftingstate';
 class App extends Component {
   render() {
     return (
@@ -26,6 +27,7 @@ class App extends Component {
         <Ashish/>
         <Clock />
         <Toggle/>
+        <TemperatureInput/>
 
         <footer classname= "App-footer">
         <img src={logo1} className="App-logo1" alt="logo1" />
