@@ -9,7 +9,8 @@ import Toggle from './Eventhandler.js';
 import ConditionalHeader from './ConditionalHeader';
 import Listandkey from './Listandkey';
 import TemperatureInput from './Liftingstate';
-import FancyBorder from './Composition';
+import BasicExample from './ReactDom';
+/*import FancyBorder from './Composition';*/
 class App extends Component {
   render() {
     return (
@@ -22,15 +23,16 @@ class App extends Component {
         <p className="App-intro">
           Website under construction.... <code>Will be coming soon!</code>
         </p>
-        <ConditionalHeader/>
+      <ConditionalHeader/>
         <Listandkey/>
         <Tick/>
         <Ashish/>
         <Clock />
         <Toggle/>
         <TemperatureInput/>
-        <FancyBorder/>
-
+       
+       
+        <BasicExample/>
         <footer classname= "App-footer">
         <img src={logo1} className="App-logo1" alt="logo1" />
         <h3 className="App-title">Thank You For Visiting this Page</h3>
@@ -38,6 +40,7 @@ class App extends Component {
       </div>
     );
   }
-}
+} 
+
 
 export default App;
